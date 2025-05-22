@@ -31,6 +31,8 @@ slide-search-app/
 ```bash
 pip install -r requirements.txt
 ```
+1.b. # Install LibreOffice (macOS via Homebrew)
+brew install --cask libreoffice
 
 2. Configure environment variables:
 - Create a `.env` file based on `.env.example`
