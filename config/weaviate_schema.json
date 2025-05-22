@@ -1,0 +1,36 @@
+{
+  "classes": [
+    {
+      "class": "Slide",
+      "description": "A slide from a presentation",
+      "properties": [
+        {
+          "name": "slideNumber",
+          "dataType": ["number"],
+          "description": "The slide number in the presentation"
+        },
+        {
+          "name": "content",
+          "dataType": ["text"],
+          "description": "The text content of the slide"
+        },
+        {
+          "name": "presentationId",
+          "dataType": ["string"],
+          "description": "ID of the parent presentation"
+        },
+        {
+          "name": "imageUrl",
+          "dataType": ["string"],
+          "description": "URL to the rendered slide image"
+        },
+        {
+          "name": "topics",
+          "dataType": ["text[]"],
+          "description": "Automatically extracted topics"
+        }
+      ],
+      "vectorizer": "text2vec-transformers"
+    }
+  ]
+} 

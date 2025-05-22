@@ -1,0 +1,17 @@
+{
+  "text_embedding": {
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "dimensions": 384,
+    "batch_size": 32
+  },
+  "image_embedding": {
+    "model": "openai/clip-vit-base-patch32",
+    "dimensions": 512,
+    "batch_size": 16
+  },
+  "topic_extraction": {
+    "model": "gpt-3.5-turbo",
+    "max_topics": 5,
+    "confidence_threshold": 0.7
+  }
+} 
